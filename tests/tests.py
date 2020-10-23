@@ -1,7 +1,8 @@
 import src as api
+from key import RIOT_KEY
 import unittest
 
-api = api.RiotApi("API-KEY")
+api = api.RiotApi(RIOT_KEY)
 
 
 class TestApi(unittest.TestCase):
